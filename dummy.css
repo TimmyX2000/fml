@@ -5,6 +5,7 @@ background-image: url(hex.jpg);
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .navbar {
@@ -60,3 +61,4 @@ color: #fff ;
   color: gray;
 
 }
+
