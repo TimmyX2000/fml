@@ -1,6 +1,10 @@
 body {
   background-color: #1a1d23; 
   font-family: sans-serif;
+background-image: url(hex.jpg);
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
 }
 
 .navbar {
@@ -54,4 +58,5 @@ color: #fff ;
 }
 .subtitle_All a:hover{
   color: gray;
+
 }
