@@ -1,21 +1,27 @@
 body {
   background-color: #1a1d23; 
   font-family: sans-serif;
-background-image: url(hex.jpg);
- background-size: cover;
- background-position: center;
- background-attachment: fixed;
+  background-image: url(hex.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   min-height: 100vh;
   size:100%;
 }
 
 .navbar {
-  display: flex;
-  justify-content: center; 
-  gap: 40px;               
-  border-bottom: 1px solid #333; 
-    padding: 20px 0;
-  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:40px;
+  border-bottom:1px solid #333;
+  padding:20px 0;
+  position:relative;
+}
+
+.nav-links{
+  display:flex;
+  gap:40px;
 }
 
 .navbar a {
@@ -31,38 +37,51 @@ background-image: url(hex.jpg);
   border-bottom: 3px solid #2db4a3;
 }
 
-
 .navbar a:hover {
   color: #ffff;
 }
-.title {
-font-size: 6ch;
-text-align: center;
-color: #fff ;
-}
-.subtitle_All{
-    color: #fff;
-    text-align: center;
-    font-size: 2.5ch
 
+.login-btn{
+  position:absolute;
+  right:40px;
+  text-decoration:none;
+  color:#fff;
+  border:1px solid ;
+  padding:8px 16px;
+  border-radius:6px;
+  transition:0.3s;
+}
+
+.login-btn:hover{
+  background:#2db4a3;
+}
+
+.title {
+  font-size: 6ch;
+  text-align: center;
+  color: #fff ;
+}
+
+.subtitle_All{
+  color: #fff;
+  text-align: center;
+  font-size: 2.5ch
 }
 
 .subtitle_All a{
-    color: #fff;
-    text-decoration: none;
-   text-decoration: underline dotted ; 
+  color: #fff;
+  text-decoration: none;
+  text-decoration: underline dotted ; 
 }
 
 .subtitle_All a:visited{
-    color: #fff;
-    text-decoration: underline ;
-    
+  color: #fff;
+  text-decoration: underline ;
 }
+
 .subtitle_All a:hover{
   color: gray;
-
 }
-
-
-
-
+.login_page{
+align-items: center;
+}
